@@ -42,17 +42,13 @@ Illustration 1: Integer Addition and Integer Multiplication using C program
 ![Screenshot from 2023-08-18 18-00-07](https://github.com/Vartika-iiitb/Vartika/assets/140998716/180e98cd-610f-409f-94c0-f26b6e1fd7d5)
 
 
-
-
 ![Screenshot from 2023-08-18 16-30-58](https://github.com/Vartika-iiitb/Vartika/assets/140998716/f2d1b9d5-a164-4af4-b9f3-6c07fbe9d555)
-
 
 
 ![Screenshot from 2023-08-18 16-31-30](https://github.com/Vartika-iiitb/Vartika/assets/140998716/b9dfd545-d270-4a2c-93e7-4dd8c5992197)
 
 
 ![Screenshot from 2023-08-18 16-33-01](https://github.com/Vartika-iiitb/Vartika/assets/140998716/ee3ca8fe-35d9-408c-be6a-1a893afbcd64)
-
 
 
 ![Screenshot from 2023-08-18 16-34-35](https://github.com/Vartika-iiitb/Vartika/assets/140998716/0c00e125-bbe6-49aa-8245-a639c4ae9397)
@@ -62,14 +58,15 @@ Illustration 2: Floating numbers addition and multiplication using C programming
 
 ![Screenshot from 2023-08-18 16-34-49](https://github.com/Vartika-iiitb/Vartika/assets/140998716/6414b8b7-3def-4358-8109-dc40a3345994)
 
-
+Following Screenshot depicts the registers which provides the system codes which are available for the programmers to use and understand.
 
 ![Screenshot from 2023-08-18 16-52-51](https://github.com/Vartika-iiitb/Vartika/assets/140998716/bd880f84-1680-4072-9efa-90ef59d7e00d)
 
 
+
+Following Screenshot depicts the Memory Allocation and stack pointer. it is used for transfering datas from Registers to the memory, or any data transfer happening between memory, stack pointer and the registers:
+
 ![Screenshot from 2023-08-18 16-55-12](https://github.com/Vartika-iiitb/Vartika/assets/140998716/b7bc97d7-eb40-4fc9-9208-5348ddb41582)
-
-
 
 </details>
 
