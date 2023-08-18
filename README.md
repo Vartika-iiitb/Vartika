@@ -5,11 +5,7 @@
 
 <details>
   
-  <Summary>
-    
-    Introduction to RISC-V basic Keywords
-    
-  </Summary>
+  <Summary>Introduction to RISC-V basic Keywords</Summary>
 
 
   
