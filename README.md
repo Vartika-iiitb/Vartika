@@ -36,7 +36,8 @@ System software performs the following tasks:
 
 # *Detailed Description of Course Content*
 
-In this section, we are going to see the we will see the basic operations of C pr ogram.
+In this section, we are going to see the we will see the basic operations of C program.
+
 Illustration 1: Integer Addition and Integer Multiplication using
 
 </details>
