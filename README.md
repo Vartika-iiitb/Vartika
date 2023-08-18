@@ -58,12 +58,12 @@ Illustration 2: Floating numbers addition and multiplication using C programming
 
 ![Screenshot from 2023-08-18 16-34-49](https://github.com/Vartika-iiitb/Vartika/assets/140998716/6414b8b7-3def-4358-8109-dc40a3345994)
 
-Following Screenshot depicts the registers which provides the system codes which are available for the programmers to use and understand.
+The Screenshot given below depicts the registers which provides the system codes which are available for the programmers to use and understand.
 
 ![Screenshot from 2023-08-18 16-52-51](https://github.com/Vartika-iiitb/Vartika/assets/140998716/bd880f84-1680-4072-9efa-90ef59d7e00d)
 
 
-Following Screenshot depicts the Memory Allocation and stack pointer. it is used for transfering datas from Registers to the memory, or any data transfer happening between memory, stack pointer and the registers:
+The Screenshot given below depicts the Memory Allocation and stack pointer. it is used for transfering datas from Registers to the memory, or any data transfer happening between memory, stack pointer and the registers:
 
 ![Screenshot from 2023-08-18 16-55-12](https://github.com/Vartika-iiitb/Vartika/assets/140998716/b7bc97d7-eb40-4fc9-9208-5348ddb41582)
 
