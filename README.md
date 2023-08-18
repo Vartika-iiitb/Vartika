@@ -1,1 +1,1 @@
-# Vartika
+# Vartika_RISC-V
