@@ -32,5 +32,16 @@ System software performs the following tasks:
   
 ![ProgLanguages06](https://github.com/Vartika-iiitb/Vartika/assets/140998716/3a49823c-7928-4749-89f5-23c291410813)
 
+# *Detailed Description of Course Content*
 
+In this section, we are going to see the we will see the basic operations of C pr ogram.
+Illustration 1: Integer Addition and Integer Multiplication using
 </details>
+
+# References
+
+<summary>
+
+  https://en.wikipedia.org/wiki/RISC-V
+  
+</summary>
