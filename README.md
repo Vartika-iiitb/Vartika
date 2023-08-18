@@ -39,6 +39,11 @@ In this section, we are going to see the we will see the basic operations of C p
 
 Illustration 1: Integer Addition and Integer Multiplication using C program
 
+![Screenshot from 2023-08-18 18-00-07](https://github.com/Vartika-iiitb/Vartika/assets/140998716/180e98cd-610f-409f-94c0-f26b6e1fd7d5)
+
+
+
+
 ![Screenshot from 2023-08-18 16-30-58](https://github.com/Vartika-iiitb/Vartika/assets/140998716/f2d1b9d5-a164-4af4-b9f3-6c07fbe9d555)
 
 
@@ -53,7 +58,8 @@ Illustration 1: Integer Addition and Integer Multiplication using C program
 ![Screenshot from 2023-08-18 16-34-35](https://github.com/Vartika-iiitb/Vartika/assets/140998716/0c00e125-bbe6-49aa-8245-a639c4ae9397)
 
 
-Illustration 2: Floating point numbers
+Illustration 2: Floating numbers addition and multiplication using C programming:
+
 ![Screenshot from 2023-08-18 16-34-49](https://github.com/Vartika-iiitb/Vartika/assets/140998716/6414b8b7-3def-4358-8109-dc40a3345994)
 
 
