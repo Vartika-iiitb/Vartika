@@ -25,6 +25,7 @@ System software performs the following tasks:
 4. It takes the high level language and converts into binary.
 
   Following figure correctly depicts the flow diagram of system software.
+  
 ![ProgLanguages06](https://github.com/Vartika-iiitb/Vartika/assets/140998716/3a49823c-7928-4749-89f5-23c291410813)
 
 
