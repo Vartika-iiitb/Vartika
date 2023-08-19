@@ -66,11 +66,19 @@ The Screenshot given below depicts the Memory Allocation and stack pointer. it i
 
 ![Screenshot from 2023-08-18 16-55-12](https://github.com/Vartika-iiitb/Vartika/assets/140998716/b7bc97d7-eb40-4fc9-9208-5348ddb41582)
 
-# C program to compute number from 1 to n
+# *C program to compute number from 1 to n*
 
-The following Screenshot shows 
+The following Screenshot shows the C code to calculate the sum of numbers from 1 to n:
 
 ![Screenshot from 2023-08-19 17-28-13](https://github.com/Vartika-iiitb/Vartika/assets/140998716/94844bdd-fe57-4f80-a329-50ae30760f90)
+
+The command used:
+
+```
+gcc sum1ton.c
+./a.out
+
+```
 
 ![Screenshot from 2023-08-19 17-27-52](https://github.com/Vartika-iiitb/Vartika/assets/140998716/77892bc3-a6ef-4a17-8231-3748f2b89d10)
 
