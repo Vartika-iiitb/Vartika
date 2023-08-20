@@ -105,9 +105,13 @@ gcc sum1ton.c
 
   ![Screenshot from 2023-08-20 23-06-13](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/e11259d5-3f2a-43fb-a6c7-4a2b0a8e5ce3)
 
-**Illustration 3 : Full Adder using Makerchip**
+**Illustration 3 : FPGA Multiplier using Makerchip**
 
+![Screenshot from 2023-08-20 23-27-39](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/7fe22fc2-6747-43e3-a566-5af380f2368b)
 
+**Illustration 4 : Ripple Carry adder using Makerchip**
+
+![Screenshot from 2023-08-20 23-31-55](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/4bd8a40a-fd40-4e01-a64f-e4be59a09a32)
 
 
 </details>
@@ -121,5 +125,7 @@ gcc sum1ton.c
   https://github.com/stevehoover/RISC-V_MYTH_Workshop
 
   https://makerchip.com/sandbox/0ERfWhNWz/0r0hpq
+
+  https://makerchip.com/sandbox/#
   
 </summary>
