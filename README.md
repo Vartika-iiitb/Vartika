@@ -87,10 +87,8 @@ gcc sum1ton.c
 
 # Day3 : Digital logic with TL- verilog and makerchip
 <details>
-  <summary>
-    
-    Combinational logic with TL-verilog using makerchip
-    
+  <summary>  
+ Combinational logic with TL-verilog using makerchip
   </summary>
   
 </details>
