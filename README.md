@@ -152,21 +152,33 @@ The Screenshort shown below depicts the Boolean operator
 
 TL-Verilog is a Verilog implementation of TL-X, a language extension that extends any HDL with transaction-level modeling. It is specifically designed for modeling hardware and provides abstract context suited to hardware design with numerous benefits. TL-Verilog eliminates the need for legacy language features of Verilog and introduces simpler syntax. It adds powerful constructs for pipelines and transactions, making it more powerful and has a significant code reduction as compared to other HDL languages.TL-Verilog is built for the design process, not for the mere description of static designs. TL-VHDL is a project that aims to layer transaction-level support on other languages to broaden the reach of the technology.
 
-**Illustration 1 : Fibonacci series**
+**Illustration 5 : Fibonacci series**
 
 ![Screenshot from 2023-08-20 23-44-16](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/e944c5ef-e779-42de-8479-2d238999ff73)
 
-**Illustration 2 : Simple Pythagoras Example**
+**Illustration 6 : Simple Pythagoras Example**
 
 ![Screenshot from 2023-08-20 23-48-47](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/4ea4be44-be88-4978-86b4-9a446719d5a3)
 
 ![Screenshot from 2023-08-20 23-50-22](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/a92db598-e5b6-41f6-8195-a676ea074392)
 
-**Illustration 3 : Implementation of pipelining through TL verilog**
+
+</details>
+
+<details>
+  <summary>
+    Pipelining
+  </summary>
+
+  Pipelining is a design technique used to improve the throughput of a digital system by breaking down the processing of a task into multiple stages, with each stage performing a specific operation on the data. In traditional Verilog, describing pipelined designs can be quite verbose and require manual management of pipeline registers. TL Verilog simplifies this process by introducing constructs that allow you to define pipelines more easily.
+
+In TL Verilog, the pipelining feature allows you to specify the pipeline stages, their functionality, and the data flow between them using high-level constructs. This abstraction can help designers focus on the functional aspects of the pipeline rather than getting bogged down in the low-level implementation details.
+
+**Illustration 7 : Implementation of pipelining through TL verilog**
 
 ![Screenshot from 2023-08-20 23-54-46](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/773121dc-33c6-443f-9988-e33b86f8ba75)
 
-**Illustration 4 : Distance Accumulator**
+**Illustration 8 : Distance Accumulator**
 
 The screenshot shown below depicts the pipelining of the Distance Accumulator:
 
@@ -174,9 +186,26 @@ The screenshot shown below depicts the pipelining of the Distance Accumulator:
 
 ![Screenshot from 2023-08-21 00-02-52](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/0180b973-2e21-4feb-92de-3ac60abddccc)
 
-**Illustration 5 : 2-cycle Calculator**
+
+
+**Illustration 9 : 2-cycle Calculator**
 
 ![Screenshot from 2023-08-21 00-21-52](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/3eb4ad4b-2d7c-4362-af73-c7606fbc8664)
+
+</details>
+
+<details>
+  <summary>
+    Wrap up
+  </summary>
+
+  **Illustration 10 - Conway game of life**
+
+  Here in each cycle, the liveness of a cell (square in the grid) is based on its eight neighboring cells (horizontally, vertically, and diagonally). An empty cell comes to life if it had exactly three live neighbors. It dies if it has fewer than two live neighbors (starvation) or more than three (overpopulation).
+
+This example implements Conway’s Life. The grid is constructed using behavioral hierarchy.
+
+![Screenshot from 2023-08-21 00-49-18](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/3cf06db0-3d62-4777-9c2a-b127f28a07fd)
 
 </details>
 
