@@ -13,7 +13,7 @@
 
   RISC-V is an open standard instruction set architecture (ISA) based on reduced instruction set computer (RISC) principles. Unlike most other ISA designs, it is provided under royalty-free open-source licenses.RISC-V is a completely open architecture, allowing anyone to create processors based on the design or create improvements without complicated licensing agreements. RISC-V is a popular alternative to proprietary architectures available today, such as those by ARM. The concept behind RISC-V was motivated by the truth that most of the processor instructions were not utilized by most computer programs, so unnecessary decoding logic was being utilized within the designs of processors, consuming more power and area. The RISC-V processor was implemented to shorten the instruction set and invest more within register resources.
 
-  # *From Apps to Hardware*
+  **From Apps to Hardware**
 
   The Applications that we generally use enters into the system software and then system software converts High Level Language into Assembly language and subsequently into binary form.
   
@@ -32,7 +32,7 @@ System software performs the following tasks:
   
 ![ProgLanguages06](https://github.com/Vartika-iiitb/Vartika/assets/140998716/3a49823c-7928-4749-89f5-23c291410813)
 
-# *Detailed Description of Course Content*
+ **Detailed Description of Course Content**
 
 In this section, we are going to see the we will see the basic operations of C program.
 
@@ -66,7 +66,7 @@ The Screenshot given below depicts the Memory Allocation and stack pointer. it i
 
 ![Screenshot from 2023-08-18 16-55-12](https://github.com/Vartika-iiitb/Vartika/assets/140998716/b7bc97d7-eb40-4fc9-9208-5348ddb41582)
 
-# *C program to compute number from 1 to n*
+**C program to compute number from 1 to n**
 
 The following Screenshot shows the C code to calculate the sum of numbers from 1 to n:
 
@@ -91,13 +91,13 @@ gcc sum1ton.c
  Combinational logic with TL-verilog using makerchip
   </summary>
   
-  # *Introduction to Logic Gates*
+   **Introduction to Logic Gates**
 
   The Screenshot below depicts different logic gates with their corresponding Truth Table:
   However if we have nand gate then one can make different logic gates with Nand gate.
 ![Screenshot from 2023-08-20 19-29-42](https://github.com/Vartika-iiitb/Vartika/assets/140998716/eb29e0bc-8874-480a-9e6f-7bc24f1935a2)
 
-# Illustration 1: Combinational Logic - Basic MUX Implementation using Makerchip
+**Illustration 1: Combinational Logic - Basic MUX Implementation using Makerchip**
 
 ![Screenshot from 2023-08-20 20-07-30](https://github.com/Vartika-iiitb/Vartika/assets/140998716/7d09c56a-9f1a-4807-b8ed-7025f5c859a9)
 
