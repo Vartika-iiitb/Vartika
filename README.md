@@ -91,6 +91,19 @@ gcc sum1ton.c
  Combinational logic with TL-verilog using makerchip
   </summary>
   
+  # *Introduction to Logic Gates*
+
+  The Screenshot below depicts different logic gates with their corresponding Truth Table:
+  However if we have nand gate then one can make different logic gates with Nand gate.
+![Screenshot from 2023-08-20 19-29-42](https://github.com/Vartika-iiitb/Vartika/assets/140998716/eb29e0bc-8874-480a-9e6f-7bc24f1935a2)
+
+# Illustration 1: Combinational Logic - Basic MUX Implementation using Makerchip
+
+![Screenshot from 2023-08-20 20-07-30](https://github.com/Vartika-iiitb/Vartika/assets/140998716/7d09c56a-9f1a-4807-b8ed-7025f5c859a9)
+
+
+
+  
 </details>
 
 # References
@@ -98,5 +111,7 @@ gcc sum1ton.c
 <summary>
 
   https://en.wikipedia.org/wiki/RISC-V
+
+  https://github.com/stevehoover/RISC-V_MYTH_Workshop
   
 </summary>
