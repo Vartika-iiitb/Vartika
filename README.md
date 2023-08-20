@@ -101,9 +101,15 @@ gcc sum1ton.c
 
 ![Screenshot from 2023-08-20 20-07-30](https://github.com/Vartika-iiitb/Vartika/assets/140998716/7d09c56a-9f1a-4807-b8ed-7025f5c859a9)
 
+**Illustration 2 : Combinational Calculator using Makerchip**
+
+  ![Screenshot from 2023-08-20 23-06-13](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/e11259d5-3f2a-43fb-a6c7-4a2b0a8e5ce3)
+
+**Illustration 3 : Full Adder using Makerchip**
 
 
-  
+
+
 </details>
 
 # References
@@ -113,5 +119,7 @@ gcc sum1ton.c
   https://en.wikipedia.org/wiki/RISC-V
 
   https://github.com/stevehoover/RISC-V_MYTH_Workshop
+
+  https://makerchip.com/sandbox/0ERfWhNWz/0r0hpq
   
 </summary>
