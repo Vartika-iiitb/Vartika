@@ -114,6 +114,10 @@ gcc sum1ton.c
 ![Screenshot from 2023-08-20 23-31-55](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/4bd8a40a-fd40-4e01-a64f-e4be59a09a32)
 
 
+<summary>
+  Sequential Logic
+</summary>
+
 </details>
 
 # References
