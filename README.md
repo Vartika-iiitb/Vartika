@@ -209,6 +209,46 @@ This example implements Conway’s Life. The grid is constructed using behaviora
 
 </details>
 
+# Day 4 : Basic RISC-V micro architecture
+
+<details>
+  <summary>
+    Introduction to simple RISC-V micro architecture
+  </summary>
+</details>
+
+<details>
+  <summary>
+    Fetch and Decode
+  </summary>
+</details>
+
+<details>
+  <summary>
+    RISC-V control Logic
+  </summary>
+</details>
+
+# Day 5 : Complete pipeline RISC-V CPU micro architecture
+
+<details>
+  <summary>
+    Pipelining the CPU
+  </summary>
+</details>
+
+<details>
+  <summary>
+    Solutions to Pipeline Hazards
+  </summary>
+</details>
+
+<details>
+  <summary>
+    Load/ Store Instructions and completing RISC-V CPU
+  </summary>
+</details>
+
 # References
 
 <summary>
