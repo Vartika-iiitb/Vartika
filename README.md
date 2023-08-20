@@ -16,10 +16,8 @@
 
 <details>
   <summary>
-    
-  **From Apps to Hardware**
-  
- </summary>
+     From Apps to Hardware
+  </summary>
 
   The Applications that we generally use enters into the system software and then system software converts High Level Language into Assembly language and subsequently into binary form.
   
@@ -42,10 +40,8 @@ System software performs the following tasks:
 
 <details>
   <summary>
-    
- **Detailed Description of Course Content**
-
- </summary>
+    Detailed Description of Course Content
+  </summary>
  
 In this section, we are going to see the we will see the basic operations of C program.
 
@@ -82,11 +78,9 @@ The Screenshot given below depicts the Memory Allocation and stack pointer. it i
 </details>
 
 <details>
-  <summary>
-    
-**C program to compute number from 1 to n**
-
-  </summary>
+  <summary> 
+C program to compute number from 1 to n
+ </summary>
 
 The following Screenshot shows the C code to calculate the sum of numbers from 1 to n:
 
@@ -154,7 +148,8 @@ The Screenshort shown below depicts the Boolean operator
  Sequential logic with TL-verilog using makerchip
 </summary>
 
-** What is TL verilog?**
+**What is TL verilog?**
+
 TL-Verilog is a Verilog implementation of TL-X, a language extension that extends any HDL with transaction-level modeling. It is specifically designed for modeling hardware and provides abstract context suited to hardware design with numerous benefits. TL-Verilog eliminates the need for legacy language features of Verilog and introduces simpler syntax. It adds powerful constructs for pipelines and transactions, making it more powerful and has a significant code reduction as compared to other HDL languages.TL-Verilog is built for the design process, not for the mere description of static designs. TL-VHDL is a project that aims to layer transaction-level support on other languages to broaden the reach of the technology.
 
 **Illustration 1 : Fibonacci series**
