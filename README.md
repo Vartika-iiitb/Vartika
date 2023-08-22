@@ -126,12 +126,72 @@ Key aspects of an ABI include:
   <summary>
     Lab Work Using ABI function calls
   </summary>
+
+  Let us use the same example of sum of 'n' numbers in c-language but using a different approach.The algorithm used to re-write the code is shown here:
+
+  ![Screenshot from 2023-08-23 02-37-34](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/ca178c13-05b5-4a00-aada-2a9b869de74d)
+
+A C file with name 1to9_custom.c has the following code in it:
+
+```
+#include <stdio.h>
+
+extern int load(int x, int y);
+
+int main() {
+	int result=0;
+	int count = 0;
+	result = load(0x0, count+1);.global load
+	printf("Sum of number 1 to %d is %d\n", count,result);
+}
+```
+Now Create another file named load.s and dump the following code into it:
+
+```
+.section .text
+.global load
+.type load, @function
+
+load:
+	add	a4,a0,zero
+	add	a2,a0,a1
+	add	a3,a0,zero
+loop:
+	add	a4,a3,a4
+	addi	a3,a3,1
+	blt	a3,a2,loop
+	add	a0,a4,zero
+	ret
+```
+
+
 </details>
 
 <details>
   <summary>
     Basic verification flow using iverilog
   </summary>
+  
+  We are going to follow this Procedure in the later lab session:
+
+![Screenshot from 2023-08-23 02-19-55](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/1775eaea-01a4-4ea9-84a8-c46f730273ae)
+
+  
+  **LAB : Run C program on RISC-V CPU**
+  Commnad used for the RISC-V CPU Program code:
+  
+```
+git clone https://github.com/kunalg123/riscv_workshop_collaterals.git
+cd ~/riscv_workshop_collaterals/labs/
+chmod 777 rv32im.sh
+./rv32im.sh
+```
+
+  The output shown below:
+  
+  ![Screenshot from 2023-08-23 02-30-41](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/d9864375-13aa-414e-b57d-d93c68624c8a)
+
+  
 </details>
 
 # Day3 : Digital logic with TL- verilog and makerchip
