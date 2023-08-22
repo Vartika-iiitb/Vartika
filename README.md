@@ -164,7 +164,6 @@ loop:
 	ret
 ```
 
-
 </details>
 
 <details>
@@ -191,7 +190,6 @@ chmod 777 rv32im.sh
   
   ![Screenshot from 2023-08-23 02-30-41](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/d9864375-13aa-414e-b57d-d93c68624c8a)
 
-  
 </details>
 
 # Day3 : Digital logic with TL- verilog and makerchip
