@@ -215,12 +215,78 @@ This example implements Conway’s Life. The grid is constructed using behaviora
   <summary>
     Introduction to simple RISC-V micro architecture
   </summary>
+
+  ![Screenshot from 2023-08-22 22-08-23](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/8fd17574-6c64-4b79-9946-5fa3c3114406)
+
+
+After building up strong basics built in TL-Verilog and digital design, and getting completely familiar with the Makerchip Platform, it was time to move on to the core aspect of the workshop, i.e. to build a RISC V core. On this day , the following basic blocks were implemented :
+
+**1. Program Counter (PC)**
+
+A program counter, also known as the instruction pointer, instruction address register, or sequence control register, is a register in a computer processor that contains the address of the next instruction to be executed from memory.As each instruction is fetched, the program counter increases its stored value by 1. After each instruction is fetched, the program counter points to the next instruction in the sequence. The address specified by the PC will be + n (+1 for a 1-word instruction and +2 for a 2-word instruction) each time one instruction is executed. In the case of an interrupt instruction, the jump destination address is stored.0 The program counter is a fundamental component of a computer's central processing unit (CPU).
+
+**2. Imem-Rd ( Instruction Memory)**
+
+The "instruction memory" refers to a component or subsystem that stores and provides instructions to the processor. It is an essential part of the overall processor architecture, especially in the context of the RISC-V instruction set architecture (ISA).
+he instruction memory's main function is to hold the machine code instructions that the processor fetches, decodes, and executes to perform various tasks and operations.
+
+**3. Instruction Decoder**
+
+The "instruction decoder" is a crucial component responsible for interpreting the fetched machine code instructions and determining the appropriate actions that the processor needs to take in order to execute the instruction. It plays a central role in the instruction execution process and is typically located after the instruction fetch stage and before the execution units in the processor pipeline.
+
+**4. Register File**
+
+The register file is a storage component that holds the processor's general-purpose registers. These registers are used for temporary storage of data during instruction execution. In RISC-V, the register file contains a fixed number of registers (e.g., 32 registers in a standard RISC-V implementation).
+
+**5. Arithmatic Logic Unit (ALU)**
+
+In the RISC-V architecture, the ALU (Arithmetic Logic Unit) is responsible for performing arithmetic and logical operations on binary data. It is a critical component within the processor that executes instructions by manipulating data according to the instruction's operation code (opcode) and operands.
+
+
+Thus the instruction set architecture of base integer instructions, next_pc logic, the register file, ALU, branch instructions, etc. and eventually the CPU core was built and tested, using appropriate testbench logic, and assembly code developed on Day 2, by the end of the day.
 </details>
 
 <details>
   <summary>
     Fetch and Decode
   </summary>
+  The Implementation plan of risc-V code:
+  
+![Screenshot from 2023-08-22 23-38-54](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/14eb2bd1-4f92-4aab-aa91-68f03d466a66)
+
+**Lab - PC**
+
+The Implementation pipeline:
+
+![Screenshot from 2023-08-22 23-39-08](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/dde8aa89-8aea-49ed-a7a4-f3381da83508)
+
+**The Makerchip output**
+
+![Screenshot from 2023-08-22 23-43-23](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/90438411-a6a2-47c6-834f-319fab418a71)
+
+<details>
+ <summary>
+ **Lab - Fetch**
+ </summary>  
+</details>
+
+
+**The pipeline structure( part 1)**
+
+![Screenshot from 2023-08-22 23-46-32](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/369fe660-e114-4cea-8d4f-6912044a0855)
+
+
+**The pipeline structure( part 2)**  
+
+![Screenshot from 2023-08-22 23-46-58](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/791a9d4b-1a3a-4748-95b4-75c02b6eb405)
+
+**The Makerchip output**
+
+![Screenshot from 2023-08-22 23-49-05](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/b80b30f3-fc32-4c6e-954f-0d820f192180)
+
+
+
+**Lab - PC**
 </details>
 
 <details>
