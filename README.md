@@ -98,6 +98,41 @@ gcc sum1ton.c
 
 </details>
 
+# Day 2: Introduction to ABI and Basic Verification Flow
+
+<details>
+  <summary>
+    Application Binary Interface
+  </summary>
+
+An **Application Binary Interface (ABI)** is a set of conventions and specifications that dictate the low-level interface between software components, specifically between different binary programs or modules. The ABI defines how these components interact at the machine code level, ensuring that compiled code from different sources can work together seamlessly, regardless of how they were developed.
+
+Key aspects of an ABI include:
+
+1. Data Representation: How different data types are represented in memory and how they are passed between functions or modules. This includes details about byte ordering, data alignment, and structure layout.
+
+2. Function Calling Convention: How functions are called and how parameters are passed between the caller and the callee. This includes information about register usage, stack management, and return values.
+
+
+![Screenshot from 2023-08-23 01-51-24](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/35b72550-f3c9-4f37-82dc-8b783725d39e)
+
+**Memory Allocation**
+
+  ![Screenshot from 2023-08-23 01-53-50](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/582bf7ca-7f04-4573-bafa-b4842519c521)
+
+</details>
+
+<details>
+  <summary>
+    Lab Work Using ABI function calls
+  </summary>
+</details>
+
+<details>
+  <summary>
+    Basic verification flow using iverilog
+  </summary>
+</details>
 
 # Day3 : Digital logic with TL- verilog and makerchip
 
