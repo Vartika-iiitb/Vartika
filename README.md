@@ -889,7 +889,6 @@ The Makerchip Implementation Output:
 
 ![Screenshot from 2023-08-23 01-27-51](https://github.com/Vartika-iiitb/Vartika_RISC-V/assets/140998716/6447df87-ed96-4629-bf9b-4566bf341737)
 
-
 </details>
 
 # References
